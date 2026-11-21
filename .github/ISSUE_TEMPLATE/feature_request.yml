@@ -14,6 +14,7 @@ body:
       description: Select one of the four core LayerBridge beta printers.
       options:
         - "Flashforge Adventurer 5X (AD5X)"
+        - "Flashforge Adventurer 5M (AD5M)"
         - "Flashforge Adventurer 5M Pro (AD5M Pro)"
         - "Flashforge Creator 5"
         - "Flashforge Creator 5 Pro"
