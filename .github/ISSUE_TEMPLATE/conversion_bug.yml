@@ -12,9 +12,45 @@ body:
     id: printer
     attributes:
       label: Target Flashforge printer
+      description: Choose the exact model, even if LayerBridge does not support conversion for it yet.
       options:
-        - AD5X
-        - Creator 5 Pro
+        - "Flashforge Adventurer 5X (AD5X)"
+        - "Flashforge Adventurer 5M (AD5M)"
+        - "Flashforge Adventurer 5M Pro (AD5M Pro)"
+        - "Flashforge Adventurer 4"
+        - "Flashforge Adventurer 4 Pro"
+        - "Flashforge Adventurer 4 Lite"
+        - "Flashforge Adventurer 3"
+        - "Flashforge Adventurer 3 Pro"
+        - "Flashforge Adventurer 3 Pro 2"
+        - "Flashforge Adventurer 3 Lite"
+        - "Flashforge Creator 5 Pro"
+        - "Flashforge Creator 5"
+        - "Flashforge Creator 4"
+        - "Flashforge Creator 3 Pro"
+        - "Flashforge Creator 3"
+        - "Flashforge Creator Pro 2"
+        - "Flashforge Creator Pro"
+        - "Flashforge Creator Max 2"
+        - "Flashforge Creator Max"
+        - "Flashforge Creator X"
+        - "Flashforge Guider 3 Ultra"
+        - "Flashforge Guider 3 Plus"
+        - "Flashforge Guider 3"
+        - "Flashforge Guider IIS"
+        - "Flashforge Guider II"
+        - "Flashforge Guider"
+        - "Flashforge Finder 3"
+        - "Flashforge Finder 2"
+        - "Flashforge Finder Lite"
+        - "Flashforge Finder"
+        - "Flashforge Dreamer NX"
+        - "Flashforge Dreamer"
+        - "Flashforge Inventor IIS"
+        - "Flashforge Inventor II"
+        - "Flashforge Inventor"
+        - "Flashforge Artemis"
+        - "Other Flashforge FDM printer (specify in feedback)"
     validations:
       required: true
   - type: dropdown
