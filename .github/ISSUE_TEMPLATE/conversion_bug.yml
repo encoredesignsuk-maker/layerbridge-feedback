@@ -1,0 +1,86 @@
+name: Conversion bug
+description: Report a 3MF conversion, process preset, support, strength or slicing issue.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Public issue:** do not attach 3MF, STL, G-code, private model screenshots, order/customer details, email addresses or temporary download links. Use short manually checked setting names/values only.
+        LayerBridge's source code and your files are not published here.
+  - type: dropdown
+    id: printer
+    attributes:
+      label: Target Flashforge printer
+      options:
+        - AD5X
+        - Creator 5 Pro
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Original project slicer
+      options:
+        - Bambu Studio
+        - OrcaSlicer
+        - Other or unknown
+    validations:
+      required: true
+  - type: input
+    id: slicer_version
+    attributes:
+      label: Flash Studio / Flashforge Orca version
+      description: Version shown in Help → About, if known.
+      placeholder: e.g. Flash Studio 1.7.21
+  - type: dropdown
+    id: category
+    attributes:
+      label: Problem category
+      options:
+        - Support generation or support settings
+        - Strength / infill / top or bottom layers
+        - Layer height / line widths / surface quality
+        - 3MF will not open or import
+        - JSON process preset import
+        - Slicing / preview / bed placement
+        - Colour / tool assignment
+        - Other conversion issue
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did the original project do?
+      description: Mention exact non-private setting names and values, not file contents or models.
+      placeholder: "For example: enable_support=1; layer_height=0.16; top_shell_layers=6"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened after conversion and preset import?
+      description: Include whether the 3MF opened, whether you imported and selected the .preset.json, and whether slicing succeeded.
+      placeholder: "Example: enable_support=0 after import; project sliced but supports were missing"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Short steps only. Never add private customer or licensed models.
+      placeholder: |
+        1. Select AD5X in LayerBridge.
+        2. Upload a shareable Bambu project.
+        3. Download the 3MF and JSON.
+        4. Open 3MF in Flash Studio and import/select JSON as process preset.
+        5. Open Support or Strength and compare settings.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public report privacy
+      options:
+        - label: I have not included private models, customer details, account credentials, access tokens or temporary download URLs.
+          required: true
