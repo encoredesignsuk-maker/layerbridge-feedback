@@ -52,6 +52,12 @@ body:
         - "Other Flashforge FDM printer (specify in feedback)"
     validations:
       required: false
+  - type: input
+    id: unlisted_printer
+    attributes:
+      label: Model not listed? Enter exact Flashforge model here
+      description: Optional. If you chose Other, type the full model name shown in your slicer.
+      placeholder: e.g. the exact model and variant
   - type: dropdown
     id: area
     attributes:
