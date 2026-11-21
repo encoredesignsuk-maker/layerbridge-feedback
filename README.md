@@ -6,7 +6,9 @@ Use LayerBridge free at https://layerbridge.app/ . LayerBridge is built by [Enco
 
 ## Report a problem
 
-Open **Issues → New issue**, then select **Conversion bug** or **Feature request**. Describe the source slicer family, Flashforge printer, Flash Studio version, relevant settings and what failed.
+Open **Issues → New issue**, then select **Conversion bug** or **Feature request**. Both forms let you choose from a broad catalogue of Flashforge FDM models, including the older Adventurer, Creator and Guider families. Choose **Other Flashforge FDM printer** and type the exact model if yours isn't listed. Describe the source slicer family, Flashforge printer, Flash Studio version, relevant settings and what failed.
+
+**Models in the feedback list are not automatically available for conversion.** LayerBridge only enables conversion once the exact machine profile is validated. Older machines may use FlashPrint rather than Flash Studio.
 
 **This is not the LayerBridge source-code repository.** The converter, deployment files, curated printer profiles and all private implementation remain in a separate private repository. GitHub issues are public and visible to everyone.
 
