@@ -12,7 +12,7 @@ body:
     id: printer
     attributes:
       label: Target Flashforge printer
-      description: Select one of the four core LayerBridge beta printers.
+      description: Select one of the five core LayerBridge beta printers.
       options:
         - "Flashforge Adventurer 5X (AD5X)"
         - "Flashforge Adventurer 5M (AD5M)"
