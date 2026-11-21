@@ -6,9 +6,9 @@ Use LayerBridge free at https://layerbridge.app/ . LayerBridge is built by [Enco
 
 ## Report a problem
 
-Open **Issues → New issue**, then select **Conversion bug** or **Feature request**. Both forms let you choose from a broad catalogue of Flashforge FDM models, including the older Adventurer, Creator and Guider families. Choose **Other Flashforge FDM printer** and type the exact model if yours isn't listed. Describe the source slicer family, Flashforge printer, Flash Studio version, relevant settings and what failed.
+Open **Issues → New issue**, then select **Conversion bug** or **Feature request**. Both forms offer the same five core Flashforge printers: **AD5X, AD5M, AD5M Pro, Creator 5 and Creator 5 Pro**. Describe the source slicer family, selected printer, Flash Studio version, relevant settings and what failed.
 
-**Models in the feedback list are not automatically available for conversion.** LayerBridge only enables conversion once the exact machine profile is validated. Older machines may use FlashPrint rather than Flash Studio.
+**Being listed does not mean a model is ready for conversion.** LayerBridge enables conversion only after an exact machine profile has been validated. Feedback on AD5M, AD5M Pro and Creator 5 is welcome while their conversion profiles are being verified.
 
 **This is not the LayerBridge source-code repository.** The converter, deployment files, curated printer profiles and all private implementation remain in a separate private repository. GitHub issues are public and visible to everyone.
 
@@ -20,6 +20,6 @@ Don't upload screenshots containing private data. If staff need an example model
 
 ## Beta printer targets
 
-Initial experimental conversion targets: **Flashforge AD5X** and **Flashforge Creator 5 Pro**. Users must import their separate process preset, confirm settings in Flash Studio/Flashforge Orca, re-slice, and inspect the preview before printing. Successful slicing is **not** a physical safety certification.
+The five-model beta currently has verified experimental conversion profiles for **Flashforge AD5X** and **Flashforge Creator 5 Pro**. AD5M, AD5M Pro and Creator 5 are listed for inspection and feedback, not enabled for conversion until verified. Users must import their separate process preset, confirm settings in Flash Studio/Flashforge Orca, re-slice, and inspect the preview before printing. Successful slicing is **not** a physical safety certification.
 
 No paid access tiers or conversion credits. Thank you for helping improve compatibility.
